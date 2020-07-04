@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="MultiplayerBlog:war exploded">
-    <output-path>$PROJECT_DIR$/out/artifacts/MultiplayerBlog_war_exploded</output-path>
+  <artifact type="exploded-war" name="MultiplayerBlog">
+    <output-path>$PROJECT_DIR$/out/artifacts/MultiplayerBlog</output-path>
     <root id="root">
       <element id="javaee-facet-resources" facet="MultiplayerBlog/web/Web" />
       <element id="directory" name="WEB-INF">

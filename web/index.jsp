@@ -11,6 +11,6 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+  <h1>Multiplayer blog, day one</h1>
   </body>
 </html>
