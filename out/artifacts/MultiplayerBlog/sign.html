@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hi Friend</title>
+  <link rel="stylesheet" href="./fonts/iconfont.css">
+  <link rel="stylesheet" href="./css/sign.css">
+  <script src="./js/sign.js"></script>
+</head>
+
+<body>
+  <!-- 创建封装容器 -->
+  <div class="container" id="container">
+
+    <!-- 注册页面 -->
+    <div class="form-container sign-up-container">
+      <form action="#">
+        <h1>sign up</h1>
+        <!-- 公共组件 -->
+        <div class="social-container">
+          <a href="#">
+            <i class="iconfont icon-qq"></i>
+          </a>
+          <a href="#">
+            <i class="iconfont icon-weixin"></i>
+          </a>
+        </div>
+        <input type="text" name="userName" id="userName" placeholder="userName">
+        <input type="email" name="email" id="register-email" placeholder="Email">
+        <input type="password" name="password" id="register-password" placeholder="Password">
+        <input type="password" name="re-password" id="re-password" placeholder="Repeat Passwored">
+        <input type="text" name="checkcode" id="checkcode" placeholder="CheckCode">
+        <a href="#" class="checkcode"></a>
+        <button>sign up</button>
+
+      </form>
+    </div>
+
+    <!-- 登录页面 -->
+    <div class="form-container sign-in-container">
+      <form action="/MultiplayerBlog/login" method="post">
+        <h1>sign in</h1>
+        <!-- 公共组件 -->
+        <div class="social-container">
+          <a href="#">
+            <i class="iconfont icon-qq"></i>
+          </a>
+          <a href="#">
+            <i class="iconfont icon-weixin"></i>
+          </a>
+        </div>
+        <input type="email" name="login-email" id="login-email" placeholder="Email...">
+        <input type="password" name="login-password" id="login-password" placeholder="Password...">
+        <a href="#" class="forget">forget your password</a>
+        <button>sign up</button>
+      </form>
+    </div>
+
+    <!-- 覆盖容器 -->
+    <div class="overlay-container">
+      <div class="overlay">
+
+        <!-- 覆盖左边 -->
+        <div class="overlay-penal overlay-left-container">
+          <h1>welcome back!</h1>
+          <p>
+            To keep connected with us please login with your personal info
+          </p>
+          <button class="ghost" id="signIn">sign in</button>
+        </div>
+
+        <!-- 覆盖右边 -->
+        <div class="overlay-penal overlay-right-container">
+          <h1>Hello Friend!</h1>
+          <p>
+            Enter your personal details and start journey with us
+          </p>
+          <button class="ghost" id="signUp">sign up</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
