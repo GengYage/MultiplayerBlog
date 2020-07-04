@@ -11,6 +11,13 @@
     <title>$Title$</title>
   </head>
   <body>
-  <h1>Multiplayer blog, day one</h1>
+  <%
+    String name = (String)request.getAttribute("name");
+  %>
+  <h1>
+    Hello,
+    <%=name%>
+  </h1>
+  <p>session：<%=session.getAttribute("name")%></p>
   </body>
 </html>

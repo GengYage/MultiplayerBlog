@@ -1,0 +1,25 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1593756068551'); /* IE9 */
+  src: url('iconfont.eot?t=1593756068551#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAO4AAsAAAAAB+AAAANrAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDBgqDSIMcATYCJAMMCwgABCAFhG0HNRvhBhHVm93IfibYthDWWTmv5Z6cQov0TCBgXJViaR9kvAhPABRAwOZcu5c1KkKN5M7vPfpBUuA0T/9zOb27Snx+oFzmGnjUCzAOKNAxJ2UBF0iC3nI48yo8ulZDAOZ4iyQKiyvVwhQN6SQA0al92+aYpjTomnyBKQLjkpEaMQ0jTOV4eRaY6n9fvCG+KUiMFKRntTZFrch9bvI8Wg0zDKORi8AdzwSI40ABkUCDaFJqqYcKI5EU5rpE16cboxHIsfwGg88xRMb0Dw8kAoQxJNcSgFAclfDcxObE0mjgnTX35tobAybAdOC4YnNE+R2Fi5mZnbl5Qd+JQdev17l6tda1a7Vr1d19zGKiyxJx40adieuHrZuwYfjGWmscdkLRvUnZ2hMhtetcuNGiSuWyWlNYhDs1nDXfc9bV2G3XwlbfcJrttDlv9r7QTddq37ghJloQpm0sO1U3XjF8wWnnrTs95l4LmXujzvXLzguXOC9Y4zz0S2bN2hVoL9y7nJo0TsyTZzepkZSX9y+MCeg0JMf4gJ/9x5Whsv+m5dmtnPqF9Q3/EfbzRYNq7gzh48LGfvdXXbfPHCxHyk0zZVfKBGY467L2a1okudfvX9R+Tgfr2p61Lub28uy9wwohhW85ynM0K3+GZOiI9Cp5UGf2hrA6CeEZNtMdxmX7pVapK7vJKjHKVFtaSrMp7lXUIBv3IqtzluJS76k1Y+pM2GtXYVvmVFJqYWms+yYpNXfvyQkKz7PvpJxr+oRmABjua5S/H1umTqhhv/E3/E7ZO72pTeY3UwsNwJ3A16vAZVimaZcNpkhozf1p3JYV2uATrdIax+ZYXkUVfoxJArAkAwbssHe/v80JsUlgKnEBJCZ4gcKUQFSTIsEICxLBGFNywJwIJeMtcNADhdBmQLjRCAS2toLEmqOgsHUO1aR7YISzd2CMbQXm1BEOM1oQXLSqgHETPGH/gz1yIqYXFeTfUL/Dxkm+T34hN+uHqR+z8Ssm5DH6tI+eRQiIc4QVrYchZCicHR7SG5GyDAOVPak/cuwUBYyb4An7H+yRE7m1ReU+f0P9DhvX4OqML+RmG4epH1ugV0lqhbuWc9pHzyIExDnCikwYaCRDKW/m8JDe9AiVZcDVqK2kn18Wn28dYA5ZSAkplNAY90X7s+nSvXYdAA==') format('woff2'),
+  url('iconfont.woff?t=1593756068551') format('woff'),
+  url('iconfont.ttf?t=1593756068551') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1593756068551#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\e62e";
+}
+
+.icon-qq:before {
+  content: "\e607";
+}
+
